@@ -22,7 +22,10 @@ export const metadata: Metadata = {
   keywords: ["streaming", "movies", "tv shows", "streamflix", "cinema", "watch online"],
   authors: [{ name: "StreamFlix Team" }],
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/icon.svg",
   },
 };
 

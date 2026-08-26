@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181a20"/>
+      <stop offset="100%" stop-color="#060709"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2E3A"/>
+      <stop offset="100%" stop-color="#B8000A"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#E50914" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Cinema Background Tile -->
+  <rect width="64" height="64" rx="14" fill="url(#bgGrad)" stroke="#E50914" stroke-width="2" stroke-opacity="0.4"/>
+  
+  <!-- StreamFlix 'S' Ribbon -->
+  <path d="M42 16 C38 13, 26 13, 22 18 C18 23, 20 29, 28 32 C38 35, 46 38, 42 47 C38 53, 24 53, 18 47" 
+        fill="none" 
+        stroke="url(#redGrad)" 
+        stroke-width="7" 
+        stroke-linecap="round" 
+        filter="url(#glow)"/>
+</svg>
