@@ -4,6 +4,16 @@ StreamFlix is a production-quality, Netflix-inspired full-stack video streaming 
 
 ---
 
+## 📸 Screenshots
+
+| **Movie Details & Interactive Ratings** | **Custom HTML5 Video Player** |
+| :---: | :---: |
+| ![Movie Details Modal](public/screenshots/02-movie-modal.png) | ![Custom Video Player](public/screenshots/03-custom-video-player.png) |
+| **Multi-Profile Selection** | **Admin Management Dashboard** |
+| ![Profile Selection](public/screenshots/04-profile-selection.png) | ![Admin Dashboard](public/screenshots/05-admin-dashboard.png) |
+
+---
+
 ## ✨ Features
 
 - **Cinematic Dark UI/UX**: Custom branding, responsive glassmorphic navbar, hero video preview, and horizontal carousels.
